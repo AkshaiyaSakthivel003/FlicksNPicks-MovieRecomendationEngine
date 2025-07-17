@@ -1,0 +1,33 @@
+.carousel-container {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bg.png);
+    background-size: cover;
+    overflow: auto;
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+ .carousel{
+    display: flex;
+    overflow: auto;
+ }
+  .carousel-group h1{
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+
+.carousel-item {
+    margin-right: 10px;
+    width: 200px;
+    overflow: auto;
+  }
+  
+  .carousel-item img {
+    width: 200px;
+    height: 300px;
+  }
+  
