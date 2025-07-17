@@ -1,0 +1,9 @@
+.userreview{
+    position: relative;
+    top: -320px;
+    right: -700px;
+  }
+  .userreview .user-button{
+    background-color: rgb(162, 128, 240);
+    color: aliceblue;
+  }

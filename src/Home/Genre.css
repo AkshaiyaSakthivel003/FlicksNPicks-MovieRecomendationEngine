@@ -1,0 +1,77 @@
+.genre-container {
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(26, 26, 39);
+    background-size: cover;
+    overflow: auto;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .genres {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .genre-box {
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #002366; /* Dark blue */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .genre-box.selected {
+    background-color: darkcyan;
+    font-weight: bold;
+  }
+  
+  .find-genre {
+    margin-top: 20px;
+  }
+  
+  .find-genre h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .find-genre ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .find-genre ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for MovieCard (assuming MovieCard is a component with specific styles) */
+  /* Replace this with your actual MovieCard styles */
+  .movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  

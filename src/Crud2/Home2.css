@@ -1,0 +1,96 @@
+.crud-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  line-height: 1.9;
+  overflow: hidden; 
+  max-height: auto; 
+}
+
+.table {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-sm th, .table-sm td {
+  padding: 0.3rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-container .btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-container .add-button {
+  background-color: rgb(0, 169, 158);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-container .add-button:hover {
+  background-color: rgb(2, 105, 98);
+}
+
+.btn-container .edit-button {
+  background-color: rgb(0, 125, 167);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-container .edit-button:hover {
+  background-color: rgb(2, 96, 127);
+}
+
+.btn-container .delete-button {
+  background-color: lightcoral;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-container .delete-button:hover {
+  background-color: rgb(188, 99, 99);
+}
+
+.adminhome{
+  position: relative;
+  top: 10px;
+  right: -20px;
+}
+.adminhome .adh-button{
+  background-color: rgb(162, 128, 240);
+  color: aliceblue;
+}

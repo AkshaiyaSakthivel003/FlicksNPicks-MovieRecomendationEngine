@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(26, 26, 39);
+  
+}
+.wrapper{
+background-color: rgb(26, 26, 39);
+flex-grow: 1;
+}
+.footer {
+  background-color: rgb(26, 26, 39);
+  color: whitesmoke;
+  padding: 1px;
+  position: sticky;
+  bottom: 0;
+  width: 98%;
+  overflow: hidden;
+  flex-shrink: 0;
+  top: 100%;
+  z-index: 1;
+  
+}
+
+.logo-button:focus {
+  outline: none;
+}
+
+.logo-button:hover {
+  text-decoration: underline;
+}
+
+.foot-links {
+  display: flex;
+  justify-content: center;
+}
+
+.foot-col {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.foot-col:last-child {
+  margin-right: 0;
+}
+
+.foot-col:hover {
+  text-decoration: underline;
+}

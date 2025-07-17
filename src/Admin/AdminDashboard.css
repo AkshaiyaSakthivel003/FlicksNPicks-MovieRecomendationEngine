@@ -1,0 +1,330 @@
+.movie-list-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  white-space: nowrap;
+}
+
+.admin-movie-card {
+  flex: 0 0 auto;
+  width: 200px;
+  background-color: #252c377d;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  height: auto;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-title {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3.6em;
+  line-height: 1.2em;
+  color: bisque;
+}
+
+.movie-year {
+  font-size: 0.8rem;
+}
+
+.adhead {
+  background: linear-gradient(to right, #ffffcc 0%, #663300 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie-info {
+  padding: 16px;
+}
+
+.AdminDashboard-h1 {
+  background: linear-gradient(to right, #ffffcc 0%, #663300 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.movie-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-list-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.movie-list-container::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.edit-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edit-button {
+  background-color: #0d3561;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-container {
+  background-color: rgba(151, 146, 210, 0.296);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  width: 69%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-container input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #495679;
+  border-radius: 5px;
+  background-color: rgba(126, 138, 153, 0.677);
+  color: #333;
+  align-items: center;
+  z-index: 1;
+}
+
+.save-button {
+  background-color: #a12150;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.save-button:hover {
+  background-color: #052b53;
+  transform: scale(1.05);
+}
+
+.edit-heading {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #223d5a;
+}
+
+.action-buttons {
+  text-align: center;
+  margin: 20px 0;
+  
+}
+
+.action-button {
+  background-color: #013267a0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.action-button.active {
+  background-color: #a12150;
+}
+
+.action-button:hover {
+  background-color: #265a92;
+  transform: scale(1.05);
+}
+.query-button {
+  background-color: #013267a0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  position: relative;
+  top: 700px;
+  border-radius: 5px;
+}
+
+.query-button.active {
+  background-color: #a12150;
+}
+
+.query-button:hover {
+  background-color: #265a92;
+  transform: scale(1.05);
+}
+.add-movie-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-movie-form input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+.add-button {
+  background-color: #a12150;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-button:hover {
+  background-color: #052b53;
+  transform: scale(1.05);
+}
+
+.movie-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-container {
+  background-color: rgba(126, 138, 153, 0.677);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 0px 10px;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 120px;
+}
+
+.delete-button {
+  position: absolute;
+  background-color: #a12150;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button:hover {
+  background-color: #052b53;
+  color: #fff;
+}
+
+.delete-text {
+  margin-bottom: 100px;
+  font-size: 1.2rem;
+  color: #464869;
+}
+
+.edit-text {
+  font-size: 1.2rem;
+  color: #464869;
+}
+
+.close-query-button {
+  background-color: #a12150;
+  color: #fff;
+  padding: 12px 24px;
+  left:10%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.close-query-button:hover {
+  background-color: #052b53;
+  transform: scale(1.05);
+}
+
+.crud1{
+  background-color: #052b53;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.crud2{
+  background-color: #052b53;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.crud3{
+  background-color: #052b53;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.side {
+  position: relative;
+  top: 1px;
+  right: 350px;
+  background-color: #052b53;
+  color: #fff;
+  padding: 9px 12px;
+  align-content: center;
+  font-size: 14.5px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  color: aliceblue;
+}
+
+.side .side-op:hover {
+  background-color: #265a92;
+}

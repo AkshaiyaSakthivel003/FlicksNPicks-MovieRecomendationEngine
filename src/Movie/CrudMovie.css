@@ -1,0 +1,85 @@
+.crudmovie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: rgb(26, 26, 39);
+  }
+  
+  .py-4 {
+    padding-top: 2rem;
+  }
+
+ .py-4 h2{
+    color: burlywood;
+  }
+  
+  .movie-crud {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+    min-width: 300px;
+    position: relative;
+    height: 200px;
+    padding: 10px;
+    background-color: #241f1f;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .movie-crud-info {
+    text-align: left;
+  }
+  
+  .movie-crud-info h3 {
+    text-align: left;
+    color: bisque;
+  }
+  
+  .movie-crud-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .movie-crud-info p {
+    color: aliceblue;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .movie-crud-container {
+    display: flex;
+    min-width: 100%;
+  }
+  
+  .movie-crud:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-crud-scroll-container {
+    display: flex;
+    overflow: auto;
+    max-width: 1320px;
+    width: 100vw;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+  }
+  
+  .movie-crud-scroll-container::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .movie-crud-scroll-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .movie-crud-scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  
+  

@@ -1,0 +1,109 @@
+.carousel-container {
+    /* background: url(bg.png);
+    background-size: cover; */
+    background-color: rgb(26, 26, 39);
+    overflow: auto;
+    justify-content: space-between;
+  }
+
+  .posterImage{
+    height: 600px;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+
+.posterImage__overlay:hover {
+  opacity: 1;
+}
+
+.posterImage__title {
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: 0.4rem;
+  text-align: left;
+}
+
+.posterImage__runtime {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+  margin-left: 3rem;
+}
+
+.posterImage__description {
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  text-align: left;
+  width: 50%;
+}
+
+.poster h1{
+  font-size: 20px;
+  color: aliceblue; 
+}
+
+.carousel-star {
+  font-size: 35px; 
+  color:rgb(0, 201, 201);
+}
+
+/* .list__title {
+  font-size: 1.75rem;
+  margin: 2.5rem;
+  color: lightcyan;
+  padding: 10px;
+} */
+
+/* .toggle-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; /* Adjust as needed 
+}
+
+.toggle-buttons button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid navy; /* Dark blue border 
+  border-radius: 17px; /* Border radius 
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.toggle-buttons button.active {
+  background-color: navy; /* Dark blue background when active 
+  border: 2px solid navy; /* Dark blue border 
+} */
+
+
+/* <div className="toggle-buttons">
+        <button onClick={() => setContentType('movies')} className={contentType === 'movies' ? 'active' : ''}>
+          Movies
+        </button>
+        <button onClick={() => setContentType('tv')} className={contentType === 'tv' ? 'active' : ''}>
+          TV Shows
+        </button>
+      </div> */
