@@ -1,0 +1,46 @@
+/* Footer.css */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .logo-button:focus {
+    outline: none;
+  }
+  
+  .logo-button:hover {
+    text-decoration: underline;
+  }
+  
+  .foot-links {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .foot-col {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .foot-col:last-child {
+    margin-right: 0;
+  }
+  
+  .foot-col:hover {
+    text-decoration: underline;
+  }
+  

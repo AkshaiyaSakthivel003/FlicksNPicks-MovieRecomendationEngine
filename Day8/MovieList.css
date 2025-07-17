@@ -1,0 +1,33 @@
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+    overflow-x: hidden; 
+    scrollbar-width: thin;
+  }
+  
+  .list__title1 {
+    font-size: 1.75rem;
+    margin: 2.5rem;
+    color: lightcyan;
+    margin-left: -25px;
+  }
+  .list__title2 {
+    font-size: 1.75rem;
+    margin: 2.5rem;
+    color: lightcyan;
+    margin-left: -15px;
+  }
+  
+  .list__cards {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: flex-start; 
+    overflow-x: auto;
+
+    /* display: flex;
+    flex-wrap: wrap ;
+    justify-content: center; */
+  }
+
+  .list__cards::-webkit-scrollbar {
+    width: 0;
+  }
